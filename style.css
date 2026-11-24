@@ -1,0 +1,44 @@
+body {
+  background: #f1f4f9;
+  min-height: 100vh;
+}
+
+.card {
+  border: 0;
+  border-radius: 14px;
+}
+
+.card-header {
+  background: #fff;
+  border-bottom: 1px solid #e6eaf0;
+  border-radius: 14px 14px 0 0 !important;
+}
+
+#errorBox {
+  white-space: pre-line;
+  color: #b02a37;
+}
+
+.student-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .5rem;
+  padding: .6rem .9rem;
+  border-radius: 10px;
+  background: #f8f9fc;
+  margin-bottom: .5rem;
+}
+
+.student-item:last-child { margin-bottom: 0; }
+
+.report-stat {
+  background: #fff8e6;
+  border: 1px solid #ffe3a3;
+  border-radius: 10px;
+  padding: .75rem 1rem;
+}
+
+@media (max-width: 575.98px) {
+  .student-item { flex-direction: column; align-items: flex-start; }
+}
